@@ -4,6 +4,136 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+* {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  a {
+    color: white;
+  }
+}
+body{
+  font-family: 'Lora', serif;
+}
+.width-content{
+  width: 65%;
+  margin: 0 auto;
+}
+.head{
+  width: 100%;
+  height: 670px;
+  background: url("../img/bagraund.png");
+  color: white;
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    div{
+      padding-right: 30px;
+    }
+    nav{
+      line-height: 3;
+      width: 535px;
+      ul{
+        display: flex;
+        font-size: 13px;
+        justify-content: space-between;
+        li{
+          margin: 0 10px 0 10px;
+          a:hover{
+            color:  #02dfd0;
+          }
+        }
+      }
+    }
+  }
+  .title{
+    text-align: center;
+    width: 81%;
+    margin: 25% 10% 90px;
+    h1{
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    span{
+      display: block;
+      width: 80px;
+      height: 1.5px;
+      background: #02dfd0;
+      margin: 25px 44% 25px;
+    }
+    p{
+      line-height: 1.5;
+      font-size: 14px;
+      margin-bottom: 65px;
+    }
+    a{
+      border: 1px solid aqua;
+      padding: 10px 15px;
+      color: aqua;
+      font-weight: 600;
+    }
+    a:hover{
+      color: rgb(48, 35, 95);
+      background: aqua;
+    }
+  }
+  .navigation{
+    display: flex;
+    width: 75px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    li{
+      display: block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 1px solid;
+    }
+    li:hover{
+      background: aqua;
+      border: aqua 1px solid;
+    }
+  }
+}
+.our-story{
+  .width-content {
+    display: flex;
+    padding: 65px 15px;
+    img {
+      margin-right: 130px;
+      width: 100%;
+      height: 100%;
+    }
+    h2 {
+      font-size: 22px;
+      padding: 15px 5px;
+      font-weight: bold;
+      color: #413d4b;
+    }
+    p {
+      margin: 20px 0;
+      line-height: 1.3;
+      color: #413d4b;
+    }
+    a {
+      border: 1px solid aqua;
+      padding: 10px 15px;
+      color: aqua;
+      display: inline-block;
+      margin-top: 10px;
+      font-weight: 600;
+    }
+    a:hover {
+      color: rgb(48, 35, 95);
+      background: aqua;
+    }
+  }
+}
+.imposition{
+  width: 100%;
+  height: 670px;
+  background-color: rgba(48, 35, 95, 0.87);
+}
 .homepage-hero-module {
   border-right: none;
   border-left: none;
@@ -19,8 +149,8 @@
 }
 .video-container {
   position: relative;
-  bottom: 0%;
-  left: 0%;
+  bottom: 0;
+  left: 0;
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -44,4 +174,324 @@
 }
 .video-container video.fillWidth {
   width: 100%;
+}
+.expertize {
+  text-align: center;
+  .width-content {
+    padding: 65px 15px;
+    color: #413d4b;
+    div {
+      margin-bottom: 50px;
+      h2 {
+        font-size: 22px;
+        padding: 15px 5px;
+        font-weight: bold;
+        color: #413d4b;
+      }
+      span {
+        display: block;
+        width: 60px;
+        height: 1.4px;
+        background: rgba(96, 126, 139, 0.59);
+        margin: 20px 47% 25px;
+      }
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    li {
+      max-width: 30%;
+      margin-bottom: 80px;
+      img {
+        margin-bottom: 20px;
+      }
+      h3 {
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      p {
+        line-height: 1.4;
+      }
+    }
+  }
+}
+.teem{
+  width: 100%;
+  height: 715px;
+  background: url("../img/bagraund3.png");
+  .imposition2{
+    width: 100%;
+    height: 715px;
+  background: rgba(48, 35, 95, 0.87)
+  }
+  .width-content{
+    padding: 65px 15px;
+    color: white;
+    text-align: center;
+    div{
+      margin-bottom: 50px;
+      text-align: center;
+      h2{
+        font-size: 22px;
+        padding: 15px 5px;
+        font-weight: bold;
+      }
+      span{
+        display: block;
+        width: 60px;
+        height: 1.4px;
+        background: #655b80;
+        margin: 20px 47% 25px;
+      }
+    }
+    ul{
+      display: flex;
+      text-align: center;
+      justify-content: space-around;
+      margin-bottom: 55px;
+      li{
+        border: 1px solid rgba(255, 255, 255, 0.51);
+        h3{
+          padding: 10px 0 5px;
+        }
+        span{
+          display: inline-block;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    p{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    a{
+      border: 1px solid aqua;
+      padding: 10px 15px;
+      color: aqua;
+      font-weight: 600;
+    }
+    a:hover {
+      color: rgb(48, 35, 95);
+      background: aqua;
+    }
+  }
+}
+.works{
+  .width-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 19%;
+    h3{
+      color: #413d4b;
+      font-weight: bold;
+    }
+    a{
+      color: #413d4b;
+    }
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      width: 16.6%;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .check{
+    border: 1px solid aqua;
+    padding: 10px 15px;
+    color: aqua;
+    font-weight: 600;
+    display: inline-block;
+    margin: 4% 45%;
+  }
+  .check:hover {
+    color: rgb(48, 35, 95);
+    background: aqua;
+  }
+}
+.photoshop {
+  width: 100%;
+  height: 500px;
+  background: url("../img/bagraund4.png");
+  .imposition3 {
+    width: 100%;
+    height: 500px;
+    background: rgba(48, 35, 95, 0.87)
+  }
+  .width-content{
+    padding: 65px 15px;
+    text-align: center;
+    color: white;
+    .fa{
+      font-size: 30px;
+    }
+    p{
+      margin: 40px 10px;
+      line-height: 1.4;
+    }
+    h3{
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+  }
+}
+.slaider{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  span{
+    padding: 0 25px;
+  }
+  ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+  }
+}
+.feedback{
+  .width-content{
+    display: flex;
+    padding: 65px 15px 30px;
+    color: #413d4b;
+    div:first-child {
+      padding-right: 80px;
+    }
+    h2{
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+    input{
+      display: block;
+      width: 365px;
+      height: 30px;
+      padding-left: 10px;
+      margin: 20px 0;
+    }
+    textarea{
+      display: block;
+      margin-bottom: 20px;
+    }
+    button{
+      width: 140px;
+      height: 35px;
+      background: none;
+      border: 2px solid aqua;
+      color: aqua;
+      font-size: 18px;
+      font-weight: 600;
+      display: inline-block;
+    }
+    ul{
+      display: inline-block;
+      vertical-align: top;
+      li{
+        margin-bottom: 45px;
+      }
+    }
+    ul:first-of-type {
+      margin-right: 45px;
+    }
+  }
+}
+footer {
+  background: url("../img/bagraund5.png");
+  width: 100%;
+  min-height: 400px;
+  .imposition4 {
+    width: 100%;
+    height: 400px;
+    background: rgba(48, 35, 95, 0.87)
+  }
+  .width-content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  div {
+    width: 30%;
+    p {
+      line-height: 1.4;
+    }
+    .logo {
+      img {
+        margin-top: 75px;
+      }
+      p {
+        margin-top: 20px;
+      }
+    }
+  }
+  .adress {
+    div {
+      display: flex;
+      width: 100%;
+      p {
+        margin: 0 0 20px 10px;
+      }
+    }
+  }
+  h2 {
+    margin: 95px 0 35px;
+  }
+  .touch-goo {
+    a {
+        border: 1px solid rgba(255, 255, 255, 0.59);
+        padding: 10px 15px;
+        display: inline-block;
+    }
+    ul {
+      display: flex;
+      margin-top: 35px;
+      li {
+        border: 1px solid;
+        border-radius: 50%;
+        padding: 5px;
+        margin-right: 9px;
+        span {
+          font-size: 20px;
+        }
+      }
+      li:nth-child(2) {
+        border: 1px solid;
+        border-radius: 50%;
+        padding: 5px 9px;
+      }
+      li:nth-child(3) {
+        border: 1px solid;
+        border-radius: 50%;
+        padding: 5px 8px;
+      }
+      li:nth-child(5) {
+        border: 1px solid;
+        border-radius: 50%;
+        padding: 5px 10px;
+      }
+      li:nth-child(6) {
+        border: 1px solid;
+        border-radius: 50%;
+        padding: 5px 8px;
+      }
+    }
+  }
+
+  .footer-navigation {
+    width: 65%;
+    display: flex;
+    margin: 3% 18%;
+    justify-content: space-between;
+    color: white;
+    ul {
+      display: flex;
+      li{
+        margin-right: 30px;
+      }
+    }
+  }
 }
