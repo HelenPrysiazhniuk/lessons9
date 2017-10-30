@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75756f61-c5ec-4918-a18f-5147b27880e0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/_reset.scssc" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/4d3f720a57f302d29eff9b5a6423fbd9e5093057/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/4d3f720a57f302d29eff9b5a6423fbd9e5093057/style.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="$PROJECT_DIR$/img/logo.png" />
@@ -169,12 +170,12 @@
       <option name="presentableId" value="Default" />
       <updated>1508945917294</updated>
       <workItem from="1508945920068" duration="6712000" />
-      <workItem from="1509039795044" duration="47596000" />
+      <workItem from="1509039795044" duration="47803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54308000" />
+    <option name="totallyTimeSpent" value="54515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
